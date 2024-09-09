@@ -1,0 +1,7 @@
+anthropic~=0.34.2
+python-dotenv~=1.0.1
+click~=8.1.7
+pyfiglet~=1.0.2
+PyYAML~=6.0.2
+requests~=2.32.3
+apache-atlas~=0.0.15
