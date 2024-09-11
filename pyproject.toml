@@ -1,8 +1,10 @@
 [tool.poetry]
 name = "DdnAtlas"
-version = "0.1.2"
-description = ""
+version = "0.1.4"
+description = "A command line tool to manage supergrapch technical metadata within Apache Atlas."
 authors = ["Kenneth Stott"]
+readme = "README.md"
+repository = "https://github.com/kenstott/ddn-atlas"
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -22,5 +24,4 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.scripts]
 ddnatlas = 'ddnatlas.cli:cli'
 
-[project.urls]
-repository = "https://github.com/kenstott/ddn-atlas"
+
